@@ -17,9 +17,9 @@
     "git_root": "\\\\?\\C:\\Users\\dell\\Desktop\\alphascout",
     "source_path": ".",
     "branch": "master",
-    "commit": "8949c9b8665e51b41e29302e7857653af522b6cc",
-    "tree": "5e39b547180386a84ea08c581c7251ec9fc67f7f",
-    "digest": "sha256:9d6a3ea535f2f388e5f603fbe6cfc4c8b738f1aa7b398c467b42f06648f21f9e",
+    "commit": "a00f78c244ff75671c71f160ee1eca30f3143848",
+    "tree": "021afb22fc9056eaba1c5f2f84c5aa436f23de80",
+    "digest": "sha256:22ad097a6c758e6ff352a1255cbc29f9e08e56b128e28fa4a4f7b0eb099cd756",
     "dirty": false
   },
   "platform": {
@@ -30,7 +30,7 @@
   "target": {
     "branch": "publish",
     "app_path": "apps/alphascout",
-    "release_tag": "apps-alphascout-8949c9b8665e",
+    "release_tag": "apps-alphascout-a00f78c244ff",
     "server_tags": [
       "staging"
     ]
@@ -41,11 +41,6 @@
     "activated": false
   },
   "files": [
-    {
-      "path": "-Method",
-      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0
-    },
     {
       "path": ".gitignore",
       "sha256": "sha256:74ebf7d0a45a8102cafb47f9656c5fd5b5056c56411eef5a6eff16874cef8f97",
@@ -60,11 +55,6 @@
       "path": "Dockerfile",
       "sha256": "sha256:4dc4ac5f76cdda716b00f9fcbeae1551ea557ae4e43590682592e7d5dd58af8e",
       "bytes": 109
-    },
-    {
-      "path": "Invoke-RestMethod",
-      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0
     },
     {
       "path": "README.md",
@@ -266,5 +256,5 @@
     }
   ],
   "errors": [],
-  "updated_at": 1780340985
+  "updated_at": 1780349206
 }
