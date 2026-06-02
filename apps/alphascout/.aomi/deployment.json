@@ -17,9 +17,15 @@
     "git_root": "\\\\?\\C:\\Users\\dell\\Desktop\\alphascout",
     "source_path": ".",
     "branch": "master",
+<<<<<<< HEAD
     "commit": "6d9eddc18c056fdc2dbbed197fd031da16516011",
     "tree": "021afb22fc9056eaba1c5f2f84c5aa436f23de80",
     "digest": "sha256:974b376b23de78d8c996581b3c2fbb7abb3503b0b7da37b9aecdb6246fbf8f10",
+=======
+    "commit": "a00f78c244ff75671c71f160ee1eca30f3143848",
+    "tree": "021afb22fc9056eaba1c5f2f84c5aa436f23de80",
+    "digest": "sha256:22ad097a6c758e6ff352a1255cbc29f9e08e56b128e28fa4a4f7b0eb099cd756",
+>>>>>>> b29d9df2b52e0292e93c60651156fb67ab68f255
     "dirty": false
   },
   "platform": {
@@ -30,7 +36,11 @@
   "target": {
     "branch": "publish",
     "app_path": "apps/alphascout",
+<<<<<<< HEAD
     "release_tag": "apps-alphascout-6d9eddc18c05",
+=======
+    "release_tag": "apps-alphascout-a00f78c244ff",
+>>>>>>> b29d9df2b52e0292e93c60651156fb67ab68f255
     "server_tags": [
       "staging"
     ]
@@ -256,5 +266,9 @@
     }
   ],
   "errors": [],
+<<<<<<< HEAD
   "updated_at": 1780364160
+=======
+  "updated_at": 1780349206
+>>>>>>> b29d9df2b52e0292e93c60651156fb67ab68f255
 }

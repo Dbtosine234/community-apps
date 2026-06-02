@@ -6,9 +6,13 @@ on:
       - publish
     paths:
       - "apps/**"
+      - "crates/**"
+      - "assets/**"
+      - "Dockerfile"
+      - "**.toml"
       - "platform.json"
-      - ".github/scripts/publish_app.py"
-      - ".github/workflows/publish-apps.yml"
+      - ".github/scripts/**"
+      - ".github/workflows/**"
   workflow_dispatch:
     inputs:
       app_dir:
