@@ -1,0 +1,260 @@
+{
+  "app": {
+    "name": "alphascout",
+    "display_name": "AlphaScout",
+    "platform": "community",
+    "git": "https://github.com/Dbtosine234/community-apps",
+    "branch": null,
+    "public": true,
+    "access_token": null,
+    "server_tags": [
+      "staging"
+    ],
+    "config_path": "aomi.toml",
+    "source_path": "."
+  },
+  "source": {
+    "git_root": "\\\\?\\C:\\Users\\dell\\Desktop\\alphascout",
+    "source_path": ".",
+    "branch": "master",
+    "commit": "6d9eddc18c056fdc2dbbed197fd031da16516011",
+    "tree": "021afb22fc9056eaba1c5f2f84c5aa436f23de80",
+    "digest": "sha256:974b376b23de78d8c996581b3c2fbb7abb3503b0b7da37b9aecdb6246fbf8f10",
+    "dirty": false
+  },
+  "platform": {
+    "name": "community",
+    "github_repo": "https://github.com/Dbtosine234/community-apps",
+    "resolved_deploy_branch": null
+  },
+  "target": {
+    "branch": "publish",
+    "app_path": "apps/alphascout",
+    "release_tag": "apps-alphascout-6d9eddc18c05",
+    "server_tags": [
+      "staging"
+    ]
+  },
+  "state": {
+    "pushed": false,
+    "deployed": false,
+    "activated": false
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "sha256:74ebf7d0a45a8102cafb47f9656c5fd5b5056c56411eef5a6eff16874cef8f97",
+      "bytes": 69
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "sha256:fd96395df485f9720b0fd2f5f075b9cbca970af30ad61ee5322414530d8bdd9c",
+      "bytes": 73
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "sha256:4dc4ac5f76cdda716b00f9fcbeae1551ea557ae4e43590682592e7d5dd58af8e",
+      "bytes": 109
+    },
+    {
+      "path": "README.md",
+      "sha256": "sha256:d57475cf330eba52ab0f6c910bec85207499d898d2f6421cf9c8a0a9c2fe72d9",
+      "bytes": 799
+    },
+    {
+      "path": "aomi.toml",
+      "sha256": "sha256:d8d7ead94a1ff3301b526bedc4bba7dec5b6b4ff318943500e442c84db82e3a0",
+      "bytes": 172
+    },
+    {
+      "path": "apps/telegram-bot/index.js",
+      "sha256": "sha256:6fd6972989d4f5e2f7e6a6ac1a57b81baece1c2d9a5002afe57718c45bb26d55",
+      "bytes": 971
+    },
+    {
+      "path": "apps/telegram-bot/package-lock.json",
+      "sha256": "sha256:13576dfe66ec574fee5c39cf3d05c1741bff2af47fda4d5c3dadc55f6c4b2188",
+      "bytes": 18136
+    },
+    {
+      "path": "apps/telegram-bot/package.json",
+      "sha256": "sha256:048718200cc7b1ef48b51bc1df9cf9a677faac5f73fe3dda84c8888eb189b6ca",
+      "bytes": 348
+    },
+    {
+      "path": "assets/screenshots/alphascout backend.png",
+      "sha256": "sha256:24359cc08cb8253ff93011c2232b4e46d2a5ae4af177fce2f2acba0248f5b7aa",
+      "bytes": 26944
+    },
+    {
+      "path": "assets/screenshots/alphascout bot 1.png",
+      "sha256": "sha256:47283c293f9d11e9f6f1636b35a2686be0ce4b7d81b8005f55e5c01da0f067f5",
+      "bytes": 78332
+    },
+    {
+      "path": "assets/screenshots/alphascout bot.png",
+      "sha256": "sha256:c8901bcb1524050109c205bfa729389712d3f3cc107aa90f460a1c799c2abf00",
+      "bytes": 42442
+    },
+    {
+      "path": "crates/alphascout-agent/.env.example",
+      "sha256": "sha256:1435beece86a3ba31080331b51e1b52a4fa8460a17777c3bfdba63213bf3b93d",
+      "bytes": 143
+    },
+    {
+      "path": "crates/alphascout-agent/cargo.toml",
+      "sha256": "sha256:429c65823b4dfe8b2821a8f625d39f719fdf2da25876a6ea9fa942a25ab06d38",
+      "bytes": 651
+    },
+    {
+      "path": "crates/alphascout-agent/src/ai/llm.rs",
+      "sha256": "sha256:db36430b8d7303c72ea97956d4354eee00a4246014991fa2f262d53c0708ade2",
+      "bytes": 910
+    },
+    {
+      "path": "crates/alphascout-agent/src/ai/mod.rs",
+      "sha256": "sha256:85771deb3c90a2055628fa5fd8d167e72cc6c7d283873bcb8faa24838d7d2e11",
+      "bytes": 45
+    },
+    {
+      "path": "crates/alphascout-agent/src/ai/router.rs",
+      "sha256": "sha256:b49b23ea17852643874c1d6ce1032a2abcf286c3dfacbfb984d96f028ec55006",
+      "bytes": 416
+    },
+    {
+      "path": "crates/alphascout-agent/src/ai/thesis.rs",
+      "sha256": "sha256:16fa830362fb80bcd8a925c4a82653bb20baa6e1d8348bfdf08a22981105a315",
+      "bytes": 317
+    },
+    {
+      "path": "crates/alphascout-agent/src/alerts.rs",
+      "sha256": "sha256:143fd38b2a36ff9152b31ee97ddcaf8689496b036696689edc8f70a21ef2e8a7",
+      "bytes": 281
+    },
+    {
+      "path": "crates/alphascout-agent/src/aomi/bridge.rs",
+      "sha256": "sha256:c3edf039892e7559cd57b8fefa5c0bff061128f63a654b24dca6a0a28972e405",
+      "bytes": 1645
+    },
+    {
+      "path": "crates/alphascout-agent/src/aomi/executor.rs",
+      "sha256": "sha256:4887d66d85725650250808d07176de5b2d1ef4a1443bedd937d61d3604ac959b",
+      "bytes": 132
+    },
+    {
+      "path": "crates/alphascout-agent/src/aomi/mod.rs",
+      "sha256": "sha256:ab15aa3dd7b5a511928b7e4639ca41c0b24c5b4d17e95138ec48efcb1908d34d",
+      "bytes": 50
+    },
+    {
+      "path": "crates/alphascout-agent/src/aomi/reasoning.rs",
+      "sha256": "sha256:0d5f9cdb36325ec68be42ab7f4f084d8d63013911b9f43cbd475a045014434dd",
+      "bytes": 585
+    },
+    {
+      "path": "crates/alphascout-agent/src/aomi/tools.rs",
+      "sha256": "sha256:9c08906b27359195be6a65d110c42aa598034e97f43031a4bcef1b1552e478b2",
+      "bytes": 510
+    },
+    {
+      "path": "crates/alphascout-agent/src/base.rs",
+      "sha256": "sha256:5275a9e3b7573f9fe40f5c35d5c9f2debb9dcb6c892bbc55104d6156a05134f1",
+      "bytes": 229
+    },
+    {
+      "path": "crates/alphascout-agent/src/engine.rs",
+      "sha256": "sha256:47f27981088732a24c5a9bff90c19a14b23e920001697246cad538d1e5cd9120",
+      "bytes": 122
+    },
+    {
+      "path": "crates/alphascout-agent/src/lib.rs",
+      "sha256": "sha256:b5611b85f0c0ed05aa362987f3c28b434ecaf17388e6d0a17f241730b290f12e",
+      "bytes": 104
+    },
+    {
+      "path": "crates/alphascout-agent/src/main.rs",
+      "sha256": "sha256:fd2c8961b39336bde04c86e6e106ee048882a0a1a4ecf9ea540241820553eac4",
+      "bytes": 1431
+    },
+    {
+      "path": "crates/alphascout-agent/src/market/analyzer.rs",
+      "sha256": "sha256:38d562ab723c91675bf18a8ffb65e0fe01ac8b86405a54afb79abb6efcd0ed3a",
+      "bytes": 1735
+    },
+    {
+      "path": "crates/alphascout-agent/src/market/limitless.rs",
+      "sha256": "sha256:09ef566d2554a56f3666e1c41e3af3d05581432436e18a5378470908e32d7801",
+      "bytes": 676
+    },
+    {
+      "path": "crates/alphascout-agent/src/market/mod.rs",
+      "sha256": "sha256:282c2ed9e6c9d0be6e7a2a200d858476fa76e0da3d3e38e65eb1adca2a4a3f90",
+      "bytes": 37
+    },
+    {
+      "path": "crates/alphascout-agent/src/wallet.rs",
+      "sha256": "sha256:17d2fdbdf6f1f0c62482e4f6aee386a3d8f2c569974023444df604d3db5dc7f5",
+      "bytes": 271
+    },
+    {
+      "path": "test-rust/Cargo.toml",
+      "sha256": "sha256:9aef16c0c754f3ca3c8a74a480b2a71c5067856db2045938acde63ebbb23e980",
+      "bytes": 80
+    },
+    {
+      "path": "test-rust/src/main.rs",
+      "sha256": "sha256:c8e0583694bb1e0188dbe28fe0d65ac1130723c55f968b6262b906c147f72549",
+      "bytes": 45
+    }
+  ],
+  "stages": [
+    {
+      "stage": "workspace",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "git_clean",
+          "passed": true,
+          "severity": "error",
+          "detail": "working tree clean"
+        }
+      ]
+    },
+    {
+      "stage": "manifest",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "platform_declared",
+          "passed": true,
+          "severity": "error",
+          "detail": "community"
+        },
+        {
+          "name": "git_declared",
+          "passed": true,
+          "severity": "error",
+          "detail": "https://github.com/Dbtosine234/community-apps"
+        }
+      ],
+      "resolved": {
+        "defaulted": false,
+        "server_tags": [
+          "staging"
+        ]
+      }
+    },
+    {
+      "stage": "platform",
+      "status": "skipped",
+      "detail": "requires backend preflight (--backend / AOMI_BACKEND_URL)"
+    },
+    {
+      "stage": "backend",
+      "status": "skipped",
+      "detail": "requires backend preflight (--backend / AOMI_BACKEND_URL)"
+    }
+  ],
+  "errors": [],
+  "updated_at": 1780364160
+}

@@ -1,0 +1,8 @@
+[app]
+name = "alphascout"
+display_name = "AlphaScout"
+platform = "community"
+git = "https://github.com/Dbtosine234/community-apps"
+public = true
+
+server_tags = ["staging"]
